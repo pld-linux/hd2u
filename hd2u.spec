@@ -16,10 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 hd2u is "Hany's Dos2Unix converter". It provides 'dos2unix'.
-'dos2unix' is filter used to convert DOS-style EOLs to UNIX-style EOLs
-and vice versa (EOL - End Of Line character). Additionaly it can also
-handle files with Macintosh-style EOLs and convert them into other
-EOLs.
+'dos2unix' is a filter used to convert DOS-style EOLs to UNIX-style
+EOLs and vice versa (EOL - End Of Line character). It can also handle
+files with Macintosh-style EOLs and convert them into other EOLs.
 
 %description -l pl.UTF-8
 hd2u to "Hany's Dos2Unix converter" (konwerter Dos2Unix Hany'ego).
