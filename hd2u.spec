@@ -1,4 +1,5 @@
 Summary:	Converts DOS-style EOLs to UNIX-style EOLs and vice versa
+Summary(pl.UTF-8):	Konwersja między dosowymi a uniksowymi znakami EOL 
 Name:		hd2u
 Version:	1.0.1
 Release:	0.1
@@ -14,11 +15,18 @@ Obsoletes:	dos2unix
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-hd2u is "Hany's Dos2Unix convertor". It provides 'dos2unix'.
+hd2u is "Hany's Dos2Unix converter". It provides 'dos2unix'.
 'dos2unix' is filter used to convert DOS-style EOLs to UNIX-style EOLs
-and vice versa (EOL - End Of Line character). Aditionaly it can also
+and vice versa (EOL - End Of Line character). Additionaly it can also
 handle files with Macintosh-style EOLs and convert them into other
 EOLs.
+
+%description -l pl.UTF-8
+hd2u to "Hany's Dos2Unix converter" (konwerter Dos2Unix Hany'ego).
+Udostępnia polecenie dos2unix. Jest to filtr służący do konwersji
+między dosowymi a uniksowymi znakami końca linii (EOL). Dodatkowo
+potrafi także obsługiwać pliki ze znakami EOL w stylu Macintosha i
+konwertować je na inne znaki EOL.
 
 %prep
 %setup -q
