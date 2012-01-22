@@ -1,12 +1,12 @@
 Summary:	Converts DOS-style EOLs to UNIX-style EOLs and vice versa
 Summary(pl.UTF-8):	Konwersja między dosowymi a uniksowymi znakami EOL 
 Name:		hd2u
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://hany.sk/~hany/_data/hd2u/%{name}-%{version}.tgz
-# Source0-md5:	f915e0abc1e9c8153a7e83dd2563b16f
+# Source0-md5:	8f6668fafb279aa19f956ec0515717b6
 Patch0:		%{name}-build.patch
 URL:		http://hany.sk/~hany/software/hd2u/
 BuildRequires:	popt-devel
