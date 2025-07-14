@@ -29,7 +29,7 @@ konwertować je na inne znaki EOL.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure
